@@ -1,0 +1,61 @@
+div{
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    background-color: linear-gradient(  red, yellow);
+    animation: pqr 3s ease-out 5s infinite;
+    opacity: 1;
+}
+img{
+    border-radius: 200px;
+    animation: xyz 3s ease-out 5s infinite;
+    box-shadow: 10px 10px 5px grey;
+}
+
+@keyframes xyz{
+    0%{
+        transform: rotate(30deg);
+        margin-top: 300px;
+
+    }
+    20%{
+        transform: rotate(60deg);
+
+    }
+    40%{
+        transform: rotate(120deg);
+        margin-left: 200px;
+    }
+    60%{
+        transform: rotate(240deg);
+
+    }
+    80%{
+        transform: rotate(270deg);
+        margin-right: 300px;
+    }
+}
+
+@keyframes pqr{
+    0%{
+        transform: rotate(30deg);
+        margin-top: 300px;
+
+    }
+    20%{
+        transform: rotate(60deg);
+
+    }
+    40%{
+        transform: rotate(120deg);
+        margin-left: 200px;
+    }
+    60%{
+        transform: rotate(240deg);
+
+    }
+    80%{
+        transform: rotate(270deg);
+        margin-right: 300px;
+    }
+}
