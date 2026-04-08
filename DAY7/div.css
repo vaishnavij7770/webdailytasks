@@ -1,0 +1,21 @@
+section   {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+div {
+    border-style: dotted;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background-color: lightblue;
+    padding-left: 10px;
+
+}
+img {
+    height: 180px;
+    width: 200px;
+    padding-top: 10px;
+}
