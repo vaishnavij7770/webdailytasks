@@ -1,0 +1,36 @@
+body{
+    background-color: lightskyblue;
+}
+div.ball1{
+   float: left;
+}
+div.ball2{
+    float: right;
+}
+img{
+    border-radius: 200px;
+    animation: xyz 3s ease-out 5s infinite;
+}
+@keyframes xyz{
+    0%{
+        transform: rotate(30deg);
+        margin-top: 300px;
+
+    }
+    20%{
+        transform: rotate(60deg);
+
+    }
+    40%{
+        transform: rotate(120deg);
+        margin-left: 200px;
+    }
+    60%{
+        transform: rotate(240deg);
+
+    }
+    80%{
+        transform: rotate(270deg);
+        margin-right: 300px;
+    }
+}
